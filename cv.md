@@ -4,6 +4,8 @@
 
 ### Junior Frontend Developer
 
+![photo](./IMG_23381.jpg)
+
 ###Contacts
 
 - phone: +905355511392
