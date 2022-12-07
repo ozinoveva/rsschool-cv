@@ -11,6 +11,10 @@
 - telegtam: ozinoveva
 - GitHub: ozinoveva
 
+### About me:
+
+I am a highly motivated and detail-oriented junior frontend developer with experience in HTML, CSS, and JavaScript. I have a passion for creating user-friendly and engaging web experiences and am always looking to learn and expand my skillset.
+
 ###Skills:
 
 - HTML
