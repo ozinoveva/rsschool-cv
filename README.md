@@ -1,3 +1,1 @@
-Hello!
-
-This is my first project
+[rsschool-cv](https://ozinoveva.github.io/rsschool-cv/cv)
