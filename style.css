@@ -1,3 +1,210 @@
-h1 {
-  font-size: 30px;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/Open_Sans.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/OpenSans-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/OpenSans-Regular.ttf");
+  font-weight: 300;
+}
+
+html {
+  font-family: "Open Sans";
+
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  border-bottom: 1px solid #5966b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #5966b8;
+  padding: 10px;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.box-main {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.nav-list {
+  display: flex;
+
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  display: list-chapter;
+  text-align: center;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #fff;
+}
+
+.nav-chapter {
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.nav-chapter:hover {
+  color: #04335a;
+  -webkit-text-shadow: 2px 2px 2px lightblue;
+  -moz-text-shadow: 2px 2px 2px lightblue;
+  text-shadow: 2px 2px 2px lightblue;
+}
+
+.section-title-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.section-profile-title {
+  position: absolute;
+  left: 50px;
+  text-transform: uppercase;
+}
+
+.section-title-name {
+  margin: 0;
+  text-align: left;
+}
+
+.section-title {
+  color: #384a99;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section-list {
+  padding: 10px;
+  list-style: none;
+  text-align: left;
+  width: 500px;
+  padding-left: 20px;
+  margin: 0 auto;
+  text-align: start;
+}
+.section-chapter {
+  position: relative;
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.section-chapter a {
+  text-decoration: none;
+  color: black;
+}
+
+.section {
+  padding: 10px;
+  padding-bottom: 35px;
+  list-style-type: disc;
+  text-align: center;
+}
+
+p {
+  width: 500px;
+  margin: 0 auto;
+  text-align: start;
+}
+
+code {
+  font-family: jetbrains mono, arial, helvetica;
+  font-size: 16px;
+  color: #444;
+}
+
+.section-block {
+  margin: 0;
+  padding: 0;
+  list-style: disc;
+  width: 500px;
+  padding-left: 20px;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.section-hero {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 3px solid #5966b8;
+}
+
+.nav {
+  width: 100%;
+}
+
+.contacts-chapter {
+  padding: 0;
+  text-align: left;
+}
+
+.footer {
+  background-color: #5966b8;
+  padding: 20px;
+}
+.githab-nav {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rsschool-logo {
+  width: 200px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
 }

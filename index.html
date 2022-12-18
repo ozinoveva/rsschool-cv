@@ -1,3 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <title>Olga Zinoveva</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" />
 </head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-chapter"><a href="#contacts" target="_blank" rel="noopener noreferrer"
+            class="nav-link">Contacts</a></li>
+        <li class="nav-chapter"><a href="#aboutme" target="_blank" rel="noopener noreferrer" class="nav-link">About
+            me</a></li>
+        <li class="nav-chapter"><a href="#skills" target="_blank" rel="noopener noreferrer" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-chapter"><a href="#code" target="_blank" rel="noopener noreferrer" class="nav-link">Code
+            example</a></li>
+        <li class="nav-chapter"><a href="#education" target="_blank" rel="noopener noreferrer"
+            class="nav-link">Education</a></li>
+        <li class="nav-chapter"><a href="#languages" target="_blank" rel="noopener noreferrer"
+            class="nav-link">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="container box-main">
+      <section class="section section-hero" id="title">
+        <img src="./assets/img_23381.jpg" alt class="section-title-photo" />
+        <div class="section-profile-title">
+          <h1 class="section-title-name ">Olga Zinoveva</h1>
+          <span class="section-subtitle">junior frontend developer</span>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-block">
+          <li class="section-chapter contacts-chapter">
+            <b>Email:</b>
+            <a href="86olgazin@gmail.com" target="_blank" rel="noopener noreferrer"
+              title="email">86olgazin@gmail.com</a>
+          </li>
+          <li class="section-chapter contacts-chapter">
+            <b>Telegram:</b>
+            <a href="https://t.me/ozinoveva" target="_blank" rel="noopener noreferrer" title="email">ozinoveva</a>
+          </li>
+          <li class="section-chapter contacts-chapter">
+            <b>GitHub:</b>
+            <a href="https://github.com/ozinoveva" target="_blank" rel="noopener noreferrer"
+              title="githab">ozinoveva</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="aboutme">
+        <h2 class="section-title">About me</h2>
+        <p>I am a highly motivated and detail-oriented junior frontend developer with experience in HTML, CSS, and
+          JavaScript. I have a passion for creating user-friendly and engaging web experiences and am always looking to
+          learn and expand my skillset.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-block">
+          <li class="section-chapter">
+            HTML
+          </li>
+          <li class="section-chapter">
+            CSS
+          </li>
+          <li class=" section-chapter">
+            Photoshop
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <div class="section-block section-block-code">
+          <pre class="pre">
+          <code>
+const printNumbers = (initialNumber) => {
+  let i = initialNumber;
+            
+    while (i >= 1) {
+      console.log(i);
+      i = i - 1;
+    }
+  console.log ('finished!');
+};
+            
+printNumbers(4);
+          </code>
+      
+        </pre>
+        </div>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-list">
+          <li class="section-chapter"><B>Hexlet</B><span> — JavaScript Basics</span></li>
+          <li class="section-chapter"><b>HTML Academy</b><span> — HTML, CSS and JavaScript</span></li>
+          <li class="section-chapter"><b>RS Schools Course</b><span> — JavaScript/Front-end. Stage 0</span></li>
+        </ul>
+      </section>
+      <section class="section" id="PROJECT">
+        <h2 class="section-title">PROJECT</h2>
+
+        <a href="http://ozinoveva.github.io/rsschool-cv/cv" target="_blank" rel="noopener noreferrer" class="CV"><b>RS
+            Schools</b> — CV</a>
+
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="section-list">
+          <li class="section-chapter">English A2</li>
+          <li class="section-chapter">Russian</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+
+    <a href="https://github.com/ozinoveva" target="_blank" rel="noopener noreferrer" class="githab-nav">
+      ozinoveva</a>
+    <span>2022</span>
+    <a href="https://rs.school/js/" target="_blank" rel="noopener noreferrer" class="rsschool-link">
+      <img src="./assets/logo.svg" class="rsschool-logo" alt="logo" />
+    </a>
+  </footer>
+</body>
+
+</html>
